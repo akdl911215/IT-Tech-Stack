@@ -14,6 +14,10 @@ HTTP는 웹에서 이루어지는 교환의 기초이며, 클라이언트-서버
 
 
 
+
+
+
+
 ## HTTPS
 HTTP의 본안 취약점을 해결한 HTTP 프로토콜의 보안 버전이다. HTTP에 S(Secure Socket)가 추가되어 HTTPS가 된것이다. 
 HTTPS는 기본 골격이나 사용 목적 등은 HTTP와 거의 동일하지만, 데이터를 주고 받는 과정에 SSL/TLS 프로토콜 암호화 및 
@@ -22,6 +26,10 @@ HTTPS를 사용하면 서버와 클라이언트 사이의 모든 통신 내용�
 그 페이지를 보는 특정 사용자에게만 알려지도록 한다. HTTPS 프로토콜을 사용하면 웹 사이트 사용자가 인터넷을 통해 신용 카드 번호,
 은행 정보 및 로그인 자격 증명과 같은 중요한 데이터를 안전하게 전송할 수 있다. 이러한 이유로 HTTPS는 쇼핑, 뱅킹 및 원격 작업과 
 같은 온라인 활동을 보호하는데 특히 중요하다. 그렇기 때문에 HTTPS는 빠르게 표준 프로토콜이 되고 있다.
+
+
+
+
 
 
 
@@ -58,6 +66,10 @@ value2라는 값으로 서버에 요청을 보내게 된다.
 <img width="896" alt="POST" src="https://user-images.githubusercontent.com/76759835/165109354-928d8391-515b-422c-b10c-dec45f707dad.png">
 
 
+
+
+
+
 ## POST
 POST는 리소스를 생성/변경하기 위해 설계되었기 때문에 GET과 달리 전송해야될 데이터를 HTTP 메세지의 Body에 담아서 전송한다. 
 HTTP 메세지의 Body는 길이의 제한없이 데이터를 전송할 수 있다. 그래서 POST 요청은 GET과 달리 대용량 데이터를 전송할 수 있다. 
@@ -88,6 +100,10 @@ attachment로써 다운로드 되거나 로컬에 저장될 용도로 쓰이는 
 
 
 
+
+
+
+
 <img width="665" alt="비교표" src="https://user-images.githubusercontent.com/76759835/165109365-e2fd9054-bcea-4553-86ed-1f74d024dc8b.png">
 
 
@@ -112,4 +128,4 @@ POST는 서버의 상태나 데이터를 변경시킬 때 사용된다. 게시�
 
 
 
-[이정현 블로그 구경](https://akdl911215.tistory.com/409)
+[이정현 블로그 구경 https://akdl911215.tistory.com/409](https://akdl911215.tistory.com/409)
