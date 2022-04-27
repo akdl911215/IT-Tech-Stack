@@ -59,3 +59,35 @@
 - HTTP: 80번: 웹 전송
 - NTP: 123번: 네트워크 타임 프로토콜
 - BGP: 179번: BGP 라우팅 프로토콜
+
+
+
+
+
+## UDP(User Datagram Protocol)
+
+### 1. 개요와 특징
+- 네트워크 계층의 프로토콜로 비연결성, 비신뢰성을 바탕으로 빠른 속도로 데이터를 전송한다.
+- 재전송 기능이 없어 송수신과정에서 패킷의 손실이 발생할 수 있다.
+- 정보 누출 가능성이 있으나 프로토콜의 부하가 적어 데이터를 분산하여 전송할 때 많이 사용한다.
+- 클라이언트의 수신 여부(ACK)를 확인하지 않으며, 체크섬만 계산한다.
+
+
+
+
+
+
+![UDP 헤더의 구조와 특징 표](https://user-images.githubusercontent.com/76759835/165541804-0ec618a3-f7d4-423e-8dfa-be95e71e9d95.JPG)
+
+
+
+
+
+
+
+
+### 2. 주로 사용하는 포트의 개념과 특징
+- DNS: 53번: 도메인 네임 응답
+- TETP: 69번: 중요도 낮은 파일 전송 프로토콜(Trivial File Transfer Protocol)
+- WINS: 137번: NetBIOS Name Service
+- SNMP: 161번: Simple Network Management Protocol(TCP 프로토콜의 25번 포트 SMTP와 헷갈리기 쉬움)
