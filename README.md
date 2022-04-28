@@ -10,3 +10,9 @@
 
 ### 네트워크
 [OSI 7계층](https://github.com/akdl911215/IT-Tech-Stack/blob/master/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/OSI_SEVEN_LAYER.md)
+
+
+[HTTP, HTTPS, POST와 GET 차이](https://github.com/akdl911215/IT-Tech-Stack/blob/master/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/HTTP-HTTPS-GET-POST.md)
+
+
+[TCP와 UDP 차이](https://github.com/akdl911215/IT-Tech-Stack/blob/master/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP-UDP.md)
