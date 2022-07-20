@@ -20,7 +20,9 @@ UTF-8은 유니코드를 인코딩하는 방식이다. UTF-8인코딩은 유니�
 
 
 
-utf-8, utf-16 표로 차이점 확인하기
+### utf-8, utf-16 표로 차이점 확인하기
+
+
 <img width="644" alt="1" src="https://user-images.githubusercontent.com/76759835/179874564-eb01dd2b-172f-46ae-a0fe-a7f83090ae01.PNG">
 <img width="654" alt="2" src="https://user-images.githubusercontent.com/76759835/179874572-88b22d22-8550-4d96-ba65-f7727f0c390e.PNG">
 
@@ -47,7 +49,7 @@ collation이라고 불리는데 이것은 정해진 character set에 의해 저�
 
 
 하지만 문자를 정렬하는 것은 상당히 까다롭다. 예를 들자면 'A'와 '가'  혹은 'a' 와 'á'  같은 문자들은 어떻게 정렬해야 하는것인가? 
-\이런 이유로 mysql은 collation 속성을 통해서 텍스트 데이터들의 정렬 방식을 결정하는데 이것은 show collation 명령어를 통해서 밑의 내용을 확인이 가능하다.
+이런 이유로 mysql은 collation 속성을 통해서 텍스트 데이터들의 정렬 방식을 결정하는데 이것은 show collation 명령어를 통해서 밑의 내용을 확인이 가능하다.
 
 <img width="516" alt="3" src="https://user-images.githubusercontent.com/76759835/179874702-db6395cb-8aee-484b-987b-108aca421d7c.PNG">
 
