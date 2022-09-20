@@ -56,6 +56,8 @@ DOM은 웹 페이지의 객체 지향 표현이며, 자바스크립트와 같은
 Virtual DOM을 사용해서 DOM을 조작하는것은 2단계를 거쳐야하며, 바로 DOM을 조작하는것은 1단계이기 때문이다.
 
 
+<pre>
+<code>
   // js
   function addItem () {
     const value = document.getElementById('input').value;
@@ -76,6 +78,8 @@ Virtual DOM을 사용해서 DOM을 조작하는것은 2단계를 거쳐야하며
   <input id="input"></input>
   <button onclick="addItem">+</button>
   ...
+</code>
+</pre>
   
   
   
@@ -191,10 +195,17 @@ Virtual DOM은 DOM을 직접 조작하지 않고 변경사항을 하나의 가�
 
 참조
 Critical Rendering Path란? : https://wonism.github.io/critical-rendering-path/
+<br />
 React Virtual DOM 이해하기 : https://velog.io/@gwak2837/React-Virtual-DOM-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0
+<br />
 브라우저 동작 원리 : https://aeri-choi.gitbook.io/til/web/browser-workflow
+<br />
 Rect 가 Vitual DOM을 사용하는 이유 : https://velog.io/@woohm402/virtual-dom-and-react
+<br />
 브라우저는 어떻게 동작하는가? : https://d2.naver.com/helloworld/59361
+<br />
 DOM 소개 - WEB API | MDN : https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction
+<br />
 Virtual DOM과 Internals : https://ko.reactjs.org/docs/faq-internals.html
+<br />
 재조정 : https://ko.reactjs.org/docs/reconciliation.html
