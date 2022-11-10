@@ -168,5 +168,4 @@ ID/Password나 SSH 키를 발급해서 인터넷이나 내부망으로 연결된
 
 
 
-
-[CLI란? (Command-line interface, 명령 줄 인터페이스) 그리고 셸(Shell)과 터미널(Terminal)에 대해서도 알아보자]([Google](https://akdl911215.tistory.com/444), "google link")
+* 블로그 : <https://akdl911215.tistory.com/444>
